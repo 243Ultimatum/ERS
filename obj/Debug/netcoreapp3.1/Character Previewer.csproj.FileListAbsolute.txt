@@ -1,0 +1,27 @@
+C:\Users\Owner\source\repos\Character Previewer\bin\Debug\netcoreapp3.1\Character Previewer.exe
+C:\Users\Owner\source\repos\Character Previewer\bin\Debug\netcoreapp3.1\Character Previewer.deps.json
+C:\Users\Owner\source\repos\Character Previewer\bin\Debug\netcoreapp3.1\Character Previewer.runtimeconfig.json
+C:\Users\Owner\source\repos\Character Previewer\bin\Debug\netcoreapp3.1\Character Previewer.runtimeconfig.dev.json
+C:\Users\Owner\source\repos\Character Previewer\bin\Debug\netcoreapp3.1\Character Previewer.dll
+C:\Users\Owner\source\repos\Character Previewer\bin\Debug\netcoreapp3.1\Character Previewer.pdb
+C:\Users\Owner\source\repos\Character Previewer\obj\Debug\netcoreapp3.1\Character Previewer.csprojAssemblyReference.cache
+C:\Users\Owner\source\repos\Character Previewer\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Owner\source\repos\Character Previewer\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Owner\source\repos\Character Previewer\obj\Debug\netcoreapp3.1\Character Previewer_MarkupCompile.cache
+C:\Users\Owner\source\repos\Character Previewer\obj\Debug\netcoreapp3.1\Character Previewer_MarkupCompile.lref
+C:\Users\Owner\source\repos\Character Previewer\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Owner\source\repos\Character Previewer\obj\Debug\netcoreapp3.1\Character Previewer.g.resources
+C:\Users\Owner\source\repos\Character Previewer\obj\Debug\netcoreapp3.1\Character Previewer.AssemblyInfoInputs.cache
+C:\Users\Owner\source\repos\Character Previewer\obj\Debug\netcoreapp3.1\Character Previewer.AssemblyInfo.cs
+C:\Users\Owner\source\repos\Character Previewer\obj\Debug\netcoreapp3.1\Character Previewer.csproj.CoreCompileInputs.cache
+C:\Users\Owner\source\repos\Character Previewer\obj\Debug\netcoreapp3.1\Character Previewer.dll
+C:\Users\Owner\source\repos\Character Previewer\obj\Debug\netcoreapp3.1\Character Previewer.pdb
+C:\Users\Owner\source\repos\Character Previewer\obj\Debug\netcoreapp3.1\Character Previewer.genruntimeconfig.cache
+C:\Users\Owner\source\repos\Character Previewer\obj\Debug\netcoreapp3.1\Character_Previewer.GameArt.resources
+C:\Users\Owner\source\repos\Character Previewer\obj\Debug\netcoreapp3.1\Character Previewer.csproj.GenerateResource.cache
+C:\Users\Owner\source\repos\Character Previewer\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\Owner\source\repos\Character Previewer\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\Owner\source\repos\Character Previewer\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\Owner\source\repos\Character Previewer\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\Owner\source\repos\Character Previewer\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\Owner\source\repos\Character Previewer\obj\Debug\netcoreapp3.1\Character Previewer.csproj.CopyComplete

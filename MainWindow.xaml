@@ -1,0 +1,33 @@
+﻿<Window x:Class="Character_Previewer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Character_Previewer"
+        mc:Ignorable="d"
+        Title="Character Previewer - Pre-Alpha v0.1" Height="470" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Border Background="Cyan"/>
+        <Border Grid.Column="1" Background="Azure"/>
+        <Image x:Name="HeadLayer" Source="Resources/base_head_1_front.png" Panel.ZIndex="2"/>
+        <Image x:Name="BodyLayer" Source="Resources/base_body_1_front.png" Panel.ZIndex="1"/>
+        <Image x:Name="HandsLayer" Source="Resources/base_hands_1_front.png" Panel.ZIndex="2"/>
+        <Image x:Name="FeetLayer" Source="Resources/base_feet_1_front.png" Panel.ZIndex="2"/>
+        <Image x:Name="BustLayer" Source="Resources/base_bust_1_front.png" Panel.ZIndex="2"/>
+
+        <StackPanel Grid.Column="1" HorizontalAlignment="Left" Margin="20">
+            <Button x:Name="LightPaleButton" Content="Light Pale" Grid.Column="1" Height="30" Width="60" Margin="3" Click="LightPaleButton_Click"/>
+            <Button x:Name="PaleButton" Content="Pale" Grid.Column="1" Height="30" Width="60" Margin="3" Click="PaleButton_Click"/>
+            <Button x:Name="BaseButton" Content="Base" Grid.Column="1" Height="30" Width="60" Margin="3" Click="BaseButton_Click" />
+        </StackPanel>
+        
+        <Grid/>
+    </Grid>
+</Window>

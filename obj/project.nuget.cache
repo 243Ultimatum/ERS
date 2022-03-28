@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "T80eDMqT9SNoysEn02DrW9JTHZ5ph0XLRFq12CWRDNgy0gw/KTOZjywn5kydYBhxRueP8PMW0U9DS8shTTSLdA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Owner\\source\\repos\\Character Previewer\\Character Previewer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Owner\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\Owner\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
