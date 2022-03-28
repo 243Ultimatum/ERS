@@ -23,6 +23,11 @@
     <None Remove="Resources\pale_feet_1_front.png" />
     <None Remove="Resources\pale_hands_1_front.png" />
     <None Remove="Resources\pale_head_1_front.png" />
+    <None Remove="Resources\tanned_body_1_front.png" />
+    <None Remove="Resources\tanned_bust_1_front.png" />
+    <None Remove="Resources\tanned_feet_1_front.png" />
+    <None Remove="Resources\tanned_hands_1_front.png" />
+    <None Remove="Resources\tanned_head_1_front.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -45,6 +50,11 @@
     <Resource Include="Resources\pale_feet_1_front.png" />
     <Resource Include="Resources\pale_hands_1_front.png" />
     <Resource Include="Resources\pale_head_1_front.png" />
+    <Resource Include="Resources\tanned_body_1_front.png" />
+    <Resource Include="Resources\tanned_bust_1_front.png" />
+    <Resource Include="Resources\tanned_feet_1_front.png" />
+    <Resource Include="Resources\tanned_hands_1_front.png" />
+    <Resource Include="Resources\tanned_head_1_front.png" />
   </ItemGroup>
 
   <ItemGroup>

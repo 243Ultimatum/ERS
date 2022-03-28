@@ -8,6 +8,7 @@ namespace Character_Previewer
     {
         Base,
         LightPale,
-        Pale
+        Pale,
+        Tanned
     }
 }

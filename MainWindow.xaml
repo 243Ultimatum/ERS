@@ -16,17 +16,56 @@
         </Grid.RowDefinitions>
         <Border Background="Cyan"/>
         <Border Grid.Column="1" Background="Azure"/>
-        <Image x:Name="HeadLayer" Source="Resources/base_head_1_front.png" Panel.ZIndex="2"/>
-        <Image x:Name="BodyLayer" Source="Resources/base_body_1_front.png" Panel.ZIndex="1"/>
-        <Image x:Name="HandsLayer" Source="Resources/base_hands_1_front.png" Panel.ZIndex="2"/>
-        <Image x:Name="FeetLayer" Source="Resources/base_feet_1_front.png" Panel.ZIndex="2"/>
-        <Image x:Name="BustLayer" Source="Resources/base_bust_1_front.png" Panel.ZIndex="2"/>
+        <!-- Head Region -->
+        <Image x:Name="HairBackLayer" Panel.ZIndex="1"/>
+        <Image x:Name="HairBackAccessoriesLayer" Panel.ZIndex="2"/>
+        <Image x:Name="HeadLayer" Source="Resources/base_head_1_front.png" Panel.ZIndex="3"/>
+        <Image x:Name="EyeLayer" Panel.ZIndex="4"/>
+        <Image x:Name="NoseLayer" Panel.ZIndex="4"/>
+        <Image x:Name="MouthLayer" Panel.ZIndex="4"/>
+        <Image x:Name="EyeShadowLayer" Panel.ZIndex="5"/>
+        <Image x:Name="FaceAccessoriesLayer" Panel.ZIndex="5"/>
+        <Image x:Name="HairFrontLayer" Panel.ZIndex="6"/>
+        <Image x:Name="HairFrontAccessoriesLayer" Panel.ZIndex="7"/>
+        <!-- Body Region -->
+        <Image x:Name="BodyLayer" Source="Resources/base_body_1_front.png" Panel.ZIndex="2"/>
+        <Image x:Name="BodyAccessoriesLayer" Panel.ZIndex="3"/>
+        <Image x:Name="BodyUnderwearLayer" Panel.ZIndex="4"/>
+        <Image x:Name="BodyMiddleLayer" Panel.ZIndex="5"/>
+        <Image x:Name="BodyTopLayer" Panel.ZIndex="6"/>
+        <!-- Hands Region -->
+        <Image x:Name="HandsLayer" Source="Resources/base_hands_1_front.png" Panel.ZIndex="3"/>
+        <Image x:Name="HandsUnderAccessoriesLayer" Panel.ZIndex="4"/>
+        <Image x:Name="HandsUnderwearLayer" Panel.ZIndex="5"/>
+        <Image x:Name="HandsMiddleLayer" Panel.ZIndex="6"/>
+        <Image x:Name="HandsUpperAccessoriesLayer" Panel.ZIndex="7"/>
+        <Image x:Name="HandsTopLayer" Panel.ZIndex="8"/>
+        <!-- Feet Region -->
+        <Image x:Name="FeetLayer" Source="Resources/base_feet_1_front.png" Panel.ZIndex="3"/>
+        <Image x:Name="FeetUnderAccessoriesLayer" Panel.ZIndex="4"/>
+        <Image x:Name="FeetUnderwearLayer" Panel.ZIndex="5"/>
+        <Image x:Name="FeetMiddleLayer" Panel.ZIndex="6"/>
+        <Image x:Name="FeetTopLayer" Panel.ZIndex="7"/>
+        <Image x:Name="FeetUpperAccessoriesLayer" Panel.ZIndex="8"/>
+        <!-- Bust Region -->
+        <Image x:Name="BustLayer" Source="Resources/base_bust_1_front.png" Panel.ZIndex="7"/>
+        <Image x:Name="BustAccessoryLayer" Panel.ZIndex="8"/>
+        <Image x:Name="BustUnderwearLayer" Panel.ZIndex="9"/>
+        <Image x:Name="BustMiddleLayer" Panel.ZIndex="10"/>
+        <Image x:Name="BustTopLayer" Panel.ZIndex="11"/>
 
-        <StackPanel Grid.Column="1" HorizontalAlignment="Left" Margin="20">
-            <Button x:Name="LightPaleButton" Content="Light Pale" Grid.Column="1" Height="30" Width="60" Margin="3" Click="LightPaleButton_Click"/>
-            <Button x:Name="PaleButton" Content="Pale" Grid.Column="1" Height="30" Width="60" Margin="3" Click="PaleButton_Click"/>
-            <Button x:Name="BaseButton" Content="Base" Grid.Column="1" Height="30" Width="60" Margin="3" Click="BaseButton_Click" />
-        </StackPanel>
+        <TabControl Grid.Column="1">
+            <TabItem Header="Skin Colour">
+                <StackPanel Grid.Column="1" HorizontalAlignment="Left" Margin="20">
+                    <Button x:Name="BaseButton" Grid.Column="1" Height="30" Width="30" Margin="3" Click="BaseButton_Click" Background="#949494"/>
+                    <Button x:Name="LightPaleButton" Grid.Column="1" Height="30" Width="30" Margin="3" Click="LightPaleButton_Click" Background="#fedac6"/>
+                    <Button x:Name="PaleButton" Grid.Column="1" Height="30" Width="30" Margin="3" Click="PaleButton_Click" Background="#e6bc97"/>
+                    <Button x:Name="TannedButton" Grid.Column="1" Height="30" Width="30" Margin="3" Background="#e18c4c" Click="TannedButton_Click"/>
+                </StackPanel>
+            </TabItem>
+            
+        </TabControl>
+        
         
         <Grid/>
     </Grid>

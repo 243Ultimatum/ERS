@@ -73,5 +73,21 @@ namespace Character_Previewer
             this.FeetLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Base, LayerEnums.Feet);
             this.FeetLayer.InvalidateVisual();
         }
+
+        private void TannedButton_Click(object sender, RoutedEventArgs e)
+        {
+            BitmapBuilder bitmapBuilder = new BitmapBuilder();
+
+            this.BodyLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Tanned, LayerEnums.Body);
+            this.BodyLayer.InvalidateVisual();
+            this.HeadLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Tanned, LayerEnums.Head);
+            this.HeadLayer.InvalidateVisual();
+            this.BustLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Tanned, LayerEnums.Bust);
+            this.BustLayer.InvalidateVisual();
+            this.HandsLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Tanned, LayerEnums.Hands);
+            this.HandsLayer.InvalidateVisual();
+            this.FeetLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Tanned, LayerEnums.Feet);
+            this.FeetLayer.InvalidateVisual();
+        }
     }
 }
