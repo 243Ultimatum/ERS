@@ -131,11 +131,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Owner\\source\\repos\\Character Previewer\\Character Previewer.csproj",
+      "projectUniqueName": "E:\\GitHub\\ERS\\Character Previewer.csproj",
       "projectName": "Character Previewer",
-      "projectPath": "C:\\Users\\Owner\\source\\repos\\Character Previewer\\Character Previewer.csproj",
+      "projectPath": "E:\\GitHub\\ERS\\Character Previewer.csproj",
       "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Owner\\source\\repos\\Character Previewer\\obj\\",
+      "outputPath": "E:\\GitHub\\ERS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

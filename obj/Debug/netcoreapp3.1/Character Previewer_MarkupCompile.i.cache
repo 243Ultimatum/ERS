@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Owner\source\repos\Character Previewer\obj\Debug\netcoreapp3.1\
+E:\GitHub\ERS\obj\Debug\netcoreapp3.1\
 Character_Previewer
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
-C:\Users\Owner\source\repos\Character Previewer\App.xaml
+E:\GitHub\ERS\App.xaml
 11407045341
 
 92008006613
 193908506976
 MainWindow.xaml;
 
-False
+True
 

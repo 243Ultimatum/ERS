@@ -89,5 +89,21 @@ namespace Character_Previewer
             this.FeetLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Tanned, LayerEnums.Feet);
             this.FeetLayer.InvalidateVisual();
         }
+
+        private void BrownButton_Click(object sender, RoutedEventArgs e)
+        {
+            BitmapBuilder bitmapBuilder = new BitmapBuilder();
+
+            this.BodyLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Brown, LayerEnums.Body);
+            this.BodyLayer.InvalidateVisual();
+            this.HeadLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Brown, LayerEnums.Head);
+            this.HeadLayer.InvalidateVisual();
+            this.BustLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Brown, LayerEnums.Bust);
+            this.BustLayer.InvalidateVisual();
+            this.HandsLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Brown, LayerEnums.Hands);
+            this.HandsLayer.InvalidateVisual();
+            this.FeetLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Brown, LayerEnums.Feet);
+            this.FeetLayer.InvalidateVisual();
+        }
     }
 }
