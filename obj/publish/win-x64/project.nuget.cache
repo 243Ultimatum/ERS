@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "94ifGlqBCqwBCe5EYta0ASoDOhtB2wBmqj3Qt2VydEEz8md35zVCseR8CsWrRY2nqiCb4z8AN5eSmcVyROFRSA==",
+  "success": true,
+  "projectFilePath": "E:\\GitHub\\ERS\\Character Previewer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Owner\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\Owner\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\Owner\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\3.1.23\\microsoft.netcore.app.runtime.win-x64.3.1.23.nupkg.sha512",
+    "C:\\Users\\Owner\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\3.1.23\\microsoft.windowsdesktop.app.runtime.win-x64.3.1.23.nupkg.sha512",
+    "C:\\Users\\Owner\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\3.1.23\\microsoft.aspnetcore.app.runtime.win-x64.3.1.23.nupkg.sha512"
+  ],
+  "logs": []
+}

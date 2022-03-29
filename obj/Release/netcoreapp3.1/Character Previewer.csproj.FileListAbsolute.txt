@@ -1,0 +1,27 @@
+E:\GitHub\ERS\bin\Release\netcoreapp3.1\Character Previewer.exe
+E:\GitHub\ERS\bin\Release\netcoreapp3.1\Character Previewer.deps.json
+E:\GitHub\ERS\bin\Release\netcoreapp3.1\Character Previewer.runtimeconfig.json
+E:\GitHub\ERS\bin\Release\netcoreapp3.1\Character Previewer.runtimeconfig.dev.json
+E:\GitHub\ERS\bin\Release\netcoreapp3.1\Character Previewer.dll
+E:\GitHub\ERS\bin\Release\netcoreapp3.1\Character Previewer.pdb
+E:\GitHub\ERS\bin\Release\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+E:\GitHub\ERS\bin\Release\netcoreapp3.1\System.Drawing.Common.dll
+E:\GitHub\ERS\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+E:\GitHub\ERS\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll
+E:\GitHub\ERS\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
+E:\GitHub\ERS\obj\Release\netcoreapp3.1\Character Previewer.csprojAssemblyReference.cache
+E:\GitHub\ERS\obj\Release\netcoreapp3.1\MainWindow.g.cs
+E:\GitHub\ERS\obj\Release\netcoreapp3.1\App.g.cs
+E:\GitHub\ERS\obj\Release\netcoreapp3.1\Character Previewer_MarkupCompile.cache
+E:\GitHub\ERS\obj\Release\netcoreapp3.1\Character Previewer_MarkupCompile.lref
+E:\GitHub\ERS\obj\Release\netcoreapp3.1\MainWindow.baml
+E:\GitHub\ERS\obj\Release\netcoreapp3.1\Character Previewer.g.resources
+E:\GitHub\ERS\obj\Release\netcoreapp3.1\Character_Previewer.GameArt.resources
+E:\GitHub\ERS\obj\Release\netcoreapp3.1\Character Previewer.csproj.GenerateResource.cache
+E:\GitHub\ERS\obj\Release\netcoreapp3.1\Character Previewer.AssemblyInfoInputs.cache
+E:\GitHub\ERS\obj\Release\netcoreapp3.1\Character Previewer.AssemblyInfo.cs
+E:\GitHub\ERS\obj\Release\netcoreapp3.1\Character Previewer.csproj.CoreCompileInputs.cache
+E:\GitHub\ERS\obj\Release\netcoreapp3.1\Character Previewer.csproj.CopyComplete
+E:\GitHub\ERS\obj\Release\netcoreapp3.1\Character Previewer.dll
+E:\GitHub\ERS\obj\Release\netcoreapp3.1\Character Previewer.pdb
+E:\GitHub\ERS\obj\Release\netcoreapp3.1\Character Previewer.genruntimeconfig.cache

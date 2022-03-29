@@ -1,0 +1,10 @@
+E:\Deployments\ERS\Character Previewer.exe
+E:\Deployments\ERS\Character Previewer.dll
+E:\Deployments\ERS\Character Previewer.deps.json
+E:\Deployments\ERS\Character Previewer.runtimeconfig.json
+E:\Deployments\ERS\Character Previewer.pdb
+E:\Deployments\ERS\Microsoft.Win32.SystemEvents.dll
+E:\Deployments\ERS\System.Drawing.Common.dll
+E:\Deployments\ERS\runtimes\win\lib\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+E:\Deployments\ERS\runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll
+E:\Deployments\ERS\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
