@@ -171,6 +171,56 @@ namespace Character_Previewer {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap dark_brown_body_1_front {
+            get {
+                object obj = ResourceManager.GetObject("dark_brown_body_1_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap dark_brown_bust_1_front {
+            get {
+                object obj = ResourceManager.GetObject("dark_brown_bust_1_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap dark_brown_feet_1_front {
+            get {
+                object obj = ResourceManager.GetObject("dark_brown_feet_1_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap dark_brown_hands_1_front {
+            get {
+                object obj = ResourceManager.GetObject("dark_brown_hands_1_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap dark_brown_head_1_front {
+            get {
+                object obj = ResourceManager.GetObject("dark_brown_head_1_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
         public static byte[] light_pale_body_1_front {

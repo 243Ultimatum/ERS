@@ -10,6 +10,7 @@ namespace Character_Previewer
         LightPale,
         Pale,
         Tanned,
-        Brown
+        Brown,
+        DarkBrown
     }
 }

@@ -105,6 +105,29 @@ namespace Character_Previewer
                             throw new Exception();
                     }
                     break;
+                case SkinTypesEnums.DarkBrown:
+                    switch (layerType)
+                    {
+                        case LayerEnums.Body:
+                            resourceUri = new Uri("pack://application:,,,/Resources/dark_brown_body_1_front.png");
+                            break;
+                        case LayerEnums.Head:
+                            resourceUri = new Uri("pack://application:,,,/Resources/dark_brown_head_1_front.png");
+                            break;
+                        case LayerEnums.Bust:
+                            resourceUri = new Uri("pack://application:,,,/Resources/dark_brown_bust_1_front.png");
+                            break;
+                        case LayerEnums.Hands:
+                            resourceUri = new Uri("pack://application:,,,/Resources/dark_brown_hands_1_front.png");
+                            break;
+                        case LayerEnums.Feet:
+                            resourceUri = new Uri("pack://application:,,,/Resources/dark_brown_feet_1_front.png");
+                            break;
+                        default:
+                            //TODO - create custom exception class for this
+                            throw new Exception();
+                    }
+                    break;
                 default:
                     switch (layerType)
                     {

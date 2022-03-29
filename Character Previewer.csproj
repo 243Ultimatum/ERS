@@ -19,6 +19,11 @@
     <None Remove="Resources\brown_hands_1_front.png" />
     <None Remove="Resources\brown_head_1_front.png" />
     <None Remove="Resources\CharacterBackground.png" />
+    <None Remove="Resources\dark_brown_body_1_front.png" />
+    <None Remove="Resources\dark_brown_bust_1_front.png" />
+    <None Remove="Resources\dark_brown_feet_1_front.png" />
+    <None Remove="Resources\dark_brown_hands_1_front.png" />
+    <None Remove="Resources\dark_brown_head_1_front.png" />
     <None Remove="Resources\light_pale_body_1_front.png" />
     <None Remove="Resources\light_pale_bust_1_front.png" />
     <None Remove="Resources\light_pale_feet_1_front.png" />
@@ -52,6 +57,11 @@
     <Resource Include="Resources\brown_hands_1_front.png" />
     <Resource Include="Resources\brown_head_1_front.png" />
     <Resource Include="Resources\CharacterBackground.png" />
+    <Resource Include="Resources\dark_brown_body_1_front.png" />
+    <Resource Include="Resources\dark_brown_bust_1_front.png" />
+    <Resource Include="Resources\dark_brown_feet_1_front.png" />
+    <Resource Include="Resources\dark_brown_hands_1_front.png" />
+    <Resource Include="Resources\dark_brown_head_1_front.png" />
     <Resource Include="Resources\light_pale_body_1_front.png" />
     <Resource Include="Resources\light_pale_bust_1_front.png" />
     <Resource Include="Resources\light_pale_feet_1_front.png" />
