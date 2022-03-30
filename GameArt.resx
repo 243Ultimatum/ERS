@@ -133,6 +133,21 @@
   <data name="base_head_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\base_head_1_front.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="black_body_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\black_body_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_bust_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\black_bust_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_feet_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\black_feet_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_hands_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\black_hands_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_head_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\black_head_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="brown_body_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\brown_body_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

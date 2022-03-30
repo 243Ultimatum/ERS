@@ -113,6 +113,56 @@ namespace Character_Previewer {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap black_body_1_front {
+            get {
+                object obj = ResourceManager.GetObject("black_body_1_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap black_bust_1_front {
+            get {
+                object obj = ResourceManager.GetObject("black_bust_1_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap black_feet_1_front {
+            get {
+                object obj = ResourceManager.GetObject("black_feet_1_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap black_hands_1_front {
+            get {
+                object obj = ResourceManager.GetObject("black_hands_1_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap black_head_1_front {
+            get {
+                object obj = ResourceManager.GetObject("black_head_1_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap brown_body_1_front {
             get {
                 object obj = ResourceManager.GetObject("brown_body_1_front", resourceCulture);

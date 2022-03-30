@@ -13,6 +13,11 @@
     <None Remove="Resources\base_feet_1_front.png" />
     <None Remove="Resources\base_hands_1_front.png" />
     <None Remove="Resources\base_head_1_front.png" />
+    <None Remove="Resources\black_body_1_front.png" />
+    <None Remove="Resources\black_bust_1_front.png" />
+    <None Remove="Resources\black_feet_1_front.png" />
+    <None Remove="Resources\black_hands_1_front.png" />
+    <None Remove="Resources\black_head_1_front.png" />
     <None Remove="Resources\brown_body_1_front.png" />
     <None Remove="Resources\brown_bust_1_front.png" />
     <None Remove="Resources\brown_feet_1_front.png" />
@@ -51,6 +56,11 @@
     <Resource Include="Resources\base_feet_1_front.png" />
     <Resource Include="Resources\base_hands_1_front.png" />
     <Resource Include="Resources\base_head_1_front.png" />
+    <Resource Include="Resources\black_body_1_front.png" />
+    <Resource Include="Resources\black_bust_1_front.png" />
+    <Resource Include="Resources\black_feet_1_front.png" />
+    <Resource Include="Resources\black_hands_1_front.png" />
+    <Resource Include="Resources\black_head_1_front.png" />
     <Resource Include="Resources\brown_body_1_front.png" />
     <Resource Include="Resources\brown_bust_1_front.png" />
     <Resource Include="Resources\brown_feet_1_front.png" />

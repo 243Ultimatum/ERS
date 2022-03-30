@@ -11,6 +11,7 @@ namespace Character_Previewer
         Pale,
         Tanned,
         Brown,
-        DarkBrown
+        DarkBrown,
+        Black
     }
 }

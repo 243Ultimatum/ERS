@@ -64,6 +64,7 @@
                     <Button x:Name="TannedButton" Grid.Column="1" Height="30" Width="30" Margin="3" Background="#e18c4c" Click="TannedButton_Click"/>
                     <Button x:Name="BrownButton" Grid.Column="1" Height="30" Width="30" Margin="3" Background="#a26931" Click="BrownButton_Click"/>
                     <Button x:Name="DarkBrownButton" Grid.Column="1" Height="30" Width="30" Margin="3" Background="#8c512d" Click="DarkBrownButton_Click"/>
+                    <Button x:Name="BlackButton" Grid.Column="1" Height="30" Width="30" Margin="3" Background="#493324" Click="BlackButton_Click"/>
                 </StackPanel>
             </TabItem>
 
