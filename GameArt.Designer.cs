@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Character_Previewer {
+namespace ERSCore {
     using System;
     
     
@@ -373,6 +373,16 @@ namespace Character_Previewer {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap splashscreen {
+            get {
+                object obj = ResourceManager.GetObject("splashscreen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap tanned_body_1_front {
             get {
                 object obj = ResourceManager.GetObject("tanned_body_1_front", resourceCulture);
@@ -416,6 +426,56 @@ namespace Character_Previewer {
         public static System.Drawing.Bitmap tanned_head_1_front {
             get {
                 object obj = ResourceManager.GetObject("tanned_head_1_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap white_body_1_front {
+            get {
+                object obj = ResourceManager.GetObject("white_body_1_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap white_bust_1_front {
+            get {
+                object obj = ResourceManager.GetObject("white_bust_1_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap white_feet_1_front {
+            get {
+                object obj = ResourceManager.GetObject("white_feet_1_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap white_hands_1_front {
+            get {
+                object obj = ResourceManager.GetObject("white_hands_1_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap white_head_1_front {
+            get {
+                object obj = ResourceManager.GetObject("white_head_1_front", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Xq6zW+/ckMVaJC4KE8BWvz1lxNQTaiBbvn0o255IZ9WLhqPTprgFx0QugfEucs3Udd9PCjWSL+jDLyiTT3QkpQ==",
+  "dgSpecHash": "fm7poXbNzASFT3JQKO0kCxthevB9B+RN0SIvsL3d5X+saIWFlKYUDiu5xjOwNsRWgKbhU8XAca3ODOI/0Z+o6A==",
   "success": true,
-  "projectFilePath": "E:\\GitHub\\ERS\\Character Previewer.csproj",
+  "projectFilePath": "E:\\GitHub\\ERS\\ERSCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Owner\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Owner\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
