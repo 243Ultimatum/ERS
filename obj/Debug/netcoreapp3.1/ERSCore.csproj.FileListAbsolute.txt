@@ -14,7 +14,6 @@ E:\GitHub\ERS\obj\Debug\netcoreapp3.1\App.g.cs
 E:\GitHub\ERS\obj\Debug\netcoreapp3.1\ERSCore_MarkupCompile.cache
 E:\GitHub\ERS\obj\Debug\netcoreapp3.1\ERSCore_MarkupCompile.lref
 E:\GitHub\ERS\obj\Debug\netcoreapp3.1\ERSCore.g.resources
-E:\GitHub\ERS\obj\Debug\netcoreapp3.1\Character_Previewer.GameArt.resources
 E:\GitHub\ERS\obj\Debug\netcoreapp3.1\ERSCore.csproj.GenerateResource.cache
 E:\GitHub\ERS\obj\Debug\netcoreapp3.1\ERSCore.AssemblyInfoInputs.cache
 E:\GitHub\ERS\obj\Debug\netcoreapp3.1\ERSCore.AssemblyInfo.cs
@@ -25,3 +24,4 @@ E:\GitHub\ERS\obj\Debug\netcoreapp3.1\ERSCore.pdb
 E:\GitHub\ERS\obj\Debug\netcoreapp3.1\ERSCore.genruntimeconfig.cache
 E:\GitHub\ERS\obj\Debug\netcoreapp3.1\CharacterCreateWindow.g.cs
 E:\GitHub\ERS\obj\Debug\netcoreapp3.1\CharacterCreateWindow.baml
+E:\GitHub\ERS\obj\Debug\netcoreapp3.1\ERSCore.GameArt.resources

@@ -60,6 +60,46 @@ namespace ERSCore
             layerDictionary.Add(LayerEnums.BustTop, this.BustTopLayer);
             #endregion
 
+            var componentManager = new ComponentManager();
+            componentManager.LoadComponents();
+            var character = new Character(componentManager.loadedComponets[0]);
+
+            RedrawLayers(character, layerDictionary);
+
+        }
+
+        /// <summary>
+        /// Forces all layers in a character's components to be redrawn
+        /// </summary>
+        /// <param name="character"></param>
+        /// <param name="layerDictionary"></param>
+        private void RedrawLayers(Character character, Dictionary<LayerEnums, System.Windows.Controls.Image> layerDictionary)
+        {
+            //Call ReturnAllLayers method in Character to return a list of all the current layers and their URIs
+            var LayersToBeRedrawn = character.ReturnAllLayers();
+            //Iterates through the list of AllLayers
+            foreach(KeyValuePair<LayerEnums, Uri> componentLayers in LayersToBeRedrawn)
+            {
+                //For each value in the KeyPair, a bitmap is initialised from the Uri
+                BitmapImage displayBitmap = new BitmapImage();
+                displayBitmap.BeginInit();
+                displayBitmap.CacheOption = BitmapCacheOption.OnLoad;
+                displayBitmap.CreateOptions = BitmapCreateOptions.IgnoreImageCache;
+                displayBitmap.UriSource = componentLayers.Value;
+                displayBitmap.EndInit();
+                //A XAML component is identified from the layerlist dictionary
+                var XAMLComponent = layerDictionary[componentLayers.Key];
+                //XAML component source and new source are compared
+                if (XAMLComponent.Source != displayBitmap)
+                {
+                    //If values are different, source is updated and the component's
+                    //visuals invalidated, forcing a redraw
+                    XAMLComponent.Source = displayBitmap;
+                    XAMLComponent.InvalidateVisual();
+                }
+                //if they match, no action is taken and we iterate to the next keyvaluepair
+
+            }
         }
 
         private void LightPaleButton_Click(object sender, RoutedEventArgs e)
@@ -97,8 +137,7 @@ namespace ERSCore
         private void BaseButton_Click(object sender, RoutedEventArgs e)
         {
             BitmapBuilder bitmapBuilder = new BitmapBuilder();
-
-            this.BodyLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Base, LayerEnums.Body);
+            this.BodyLayer.Source = null;
             this.BodyLayer.InvalidateVisual();
             this.HeadLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Base, LayerEnums.Head);
             this.HeadLayer.InvalidateVisual();

@@ -28,27 +28,27 @@
         <Image x:Name="FaceAccessoriesLayer" Panel.ZIndex="5"/>
         <Image x:Name="HairFrontLayer" Panel.ZIndex="6"/>
         <Image x:Name="HairFrontAccessoriesLayer" Panel.ZIndex="7"/>
-        <!-- Body Region -->
-        <Image x:Name="BodyLayer" Source="Resources/base_body_1_front.png" Panel.ZIndex="2"/>
+        <!-- Body Layers -->
+        <Image x:Name="BodyLayer" Panel.ZIndex="2"/>
         <Image x:Name="BodyAccessoriesLayer" Panel.ZIndex="3"/>
         <Image x:Name="BodyUnderwearLayer" Panel.ZIndex="4"/>
         <Image x:Name="BodyMiddleLayer" Panel.ZIndex="5"/>
         <Image x:Name="BodyTopLayer" Panel.ZIndex="6"/>
-        <!-- Hands Region -->
+        <!-- Hands Layers -->
         <Image x:Name="HandsLayer" Source="Resources/base_hands_1_front.png" Panel.ZIndex="3"/>
         <Image x:Name="HandsUnderAccessoriesLayer" Panel.ZIndex="4"/>
         <Image x:Name="HandsUnderwearLayer" Panel.ZIndex="5"/>
         <Image x:Name="HandsMiddleLayer" Panel.ZIndex="6"/>
         <Image x:Name="HandsUpperAccessoriesLayer" Panel.ZIndex="7"/>
         <Image x:Name="HandsTopLayer" Panel.ZIndex="8"/>
-        <!-- Feet Region -->
+        <!-- Feet Layers -->
         <Image x:Name="FeetLayer" Source="Resources/base_feet_1_front.png" Panel.ZIndex="3"/>
         <Image x:Name="FeetUnderAccessoriesLayer" Panel.ZIndex="4"/>
         <Image x:Name="FeetUnderwearLayer" Panel.ZIndex="5"/>
         <Image x:Name="FeetMiddleLayer" Panel.ZIndex="6"/>
         <Image x:Name="FeetTopLayer" Panel.ZIndex="7"/>
         <Image x:Name="FeetUpperAccessoriesLayer" Panel.ZIndex="8"/>
-        <!-- Bust Region -->
+        <!-- Bust Layers -->
         <Image x:Name="BustLayer" Source="Resources/base_bust_1_front.png" Panel.ZIndex="7"/>
         <Image x:Name="BustAccessoriesLayer" Panel.ZIndex="8"/>
         <Image x:Name="BustUnderwearLayer" Panel.ZIndex="9"/>

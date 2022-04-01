@@ -39,7 +39,7 @@ namespace ERSCore {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Character_Previewer.GameArt", typeof(GameArt).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ERSCore.GameArt", typeof(GameArt).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

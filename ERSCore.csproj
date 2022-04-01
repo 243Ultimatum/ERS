@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Character_Previewer</RootNamespace>
+    <RootNamespace>ERSCore</RootNamespace>
     <UseWPF>true</UseWPF>
     <ApplicationIcon>ERS.ico</ApplicationIcon>
   </PropertyGroup>
@@ -73,10 +73,6 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>GameArt.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Logic\" />
   </ItemGroup>
 
   <ItemGroup>
