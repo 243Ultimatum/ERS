@@ -7,13 +7,24 @@ namespace ERSCore
     /// <summary>
     /// Base class for all character components
     /// </summary>
-    public abstract class CharacterComponent
-    {
-#pragma warning disable CS0169
-        public string ComponentName;
-        public int ComponentID;
-        internal bool IsFemaleComponent;
-#pragma warning restore CS0169
+    public class CharacterComponent
+    { 
+        public string ComponentName { get; set; }
+        public int ComponentID { get; set; }
+        internal bool IsFemaleComponent { get; set; }
+        public int BodyType { get; set; }
+        public Dictionary<LayerEnums, Uri> RenderLayersList { get; set; }
+        public CharacterComponent(string componentName, int componentID,
+            bool isFemaleComponent,
+             Dictionary<LayerEnums, Uri> renderLayersList,
+            int bodyType)
+        {
+            ComponentName = componentName;
+            ComponentID = componentID;
+            IsFemaleComponent = isFemaleComponent;
+            RenderLayersList = renderLayersList;
+            BodyType = bodyType;
+        }
 
     }
 }

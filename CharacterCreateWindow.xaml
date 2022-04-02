@@ -35,7 +35,7 @@
         <Image x:Name="BodyMiddleLayer" Panel.ZIndex="5"/>
         <Image x:Name="BodyTopLayer" Panel.ZIndex="6"/>
         <!-- Hands Layers -->
-        <Image x:Name="HandsLayer" Source="Resources/base_hands_1_front.png" Panel.ZIndex="3"/>
+        <Image x:Name="HandsLayer" Panel.ZIndex="3"/>
         <Image x:Name="HandsUnderAccessoriesLayer" Panel.ZIndex="4"/>
         <Image x:Name="HandsUnderwearLayer" Panel.ZIndex="5"/>
         <Image x:Name="HandsMiddleLayer" Panel.ZIndex="6"/>

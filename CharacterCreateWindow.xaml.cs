@@ -21,11 +21,14 @@ namespace ERSCore
     /// </summary>
     public partial class CharacterCreateWindow : Window
     {
+        readonly Character character;
+        readonly ComponentManager componentManager;
+        readonly Dictionary<LayerEnums, System.Windows.Controls.Image> layerDictionary;
         public CharacterCreateWindow()
         {
             InitializeComponent();
             #region Layer Dictionary Declaration
-            Dictionary<LayerEnums, System.Windows.Controls.Image> layerDictionary = new Dictionary<LayerEnums, System.Windows.Controls.Image>();
+            layerDictionary = new Dictionary<LayerEnums, System.Windows.Controls.Image>();
             layerDictionary.Add(LayerEnums.Body, this.BodyLayer);
             layerDictionary.Add(LayerEnums.BodyAccessories, this.BodyAccessoriesLayer);
             layerDictionary.Add(LayerEnums.BodyUnderwear, this.BodyUnderwearLayer);
@@ -60,14 +63,16 @@ namespace ERSCore
             layerDictionary.Add(LayerEnums.BustTop, this.BustTopLayer);
             #endregion
 
-            var componentManager = new ComponentManager();
+            componentManager = new ComponentManager();
             componentManager.LoadComponents();
-            var character = new Character(componentManager.loadedComponets[0]);
+            character = new Character(
+                RetrieveComponentFromList(0), 
+                RetrieveComponentFromList(7)
+                );
 
             RedrawLayers(character, layerDictionary);
 
         }
-
         /// <summary>
         /// Forces all layers in a character's components to be redrawn
         /// </summary>
@@ -97,137 +102,172 @@ namespace ERSCore
                     XAMLComponent.Source = displayBitmap;
                     XAMLComponent.InvalidateVisual();
                 }
-                //if they match, no action is taken and we iterate to the next keyvaluepair
+                //if they match, no action is taken and we iterate to the next keyvalue pairs
 
             }
+        }
+
+        /// <summary>
+        /// Returns a component object matching the ID integer passed as a parameter
+        /// </summary>
+        /// <param name="ID"></param>
+        /// <returns></returns>
+        private CharacterComponent RetrieveComponentFromList(int ID)
+        {
+            return this.componentManager.loadedComponets.Find(p => p.ComponentID == ID);
+
         }
 
         private void LightPaleButton_Click(object sender, RoutedEventArgs e)
         {
             BitmapBuilder bitmapBuilder = new BitmapBuilder();
-            
-            this.BodyLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.LightPale, LayerEnums.Body);
-            this.BodyLayer.InvalidateVisual();
+
+            var bodyComponent = RetrieveComponentFromList(1);
+            this.character.SetBodyComponent(bodyComponent);
+
+            var handComponent = RetrieveComponentFromList(8);
+            this.character.SetHandComponent(handComponent);
+
             this.HeadLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.LightPale, LayerEnums.Head);
             this.HeadLayer.InvalidateVisual();
             this.BustLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.LightPale, LayerEnums.Bust);
             this.BustLayer.InvalidateVisual();
-            this.HandsLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.LightPale, LayerEnums.Hands);
-            this.HandsLayer.InvalidateVisual();
             this.FeetLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.LightPale, LayerEnums.Feet);
             this.FeetLayer.InvalidateVisual();
+            RedrawLayers(this.character, this.layerDictionary);
         }
 
         private void PaleButton_Click(object sender, RoutedEventArgs e)
         {
             BitmapBuilder bitmapBuilder = new BitmapBuilder();
 
-            this.BodyLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Pale, LayerEnums.Body);
-            this.BodyLayer.InvalidateVisual();
+            var bodyComponent = RetrieveComponentFromList(2);
+            this.character.SetBodyComponent(bodyComponent);
+
+            var handComponent = RetrieveComponentFromList(9);
+            this.character.SetHandComponent(handComponent);
+
             this.HeadLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Pale, LayerEnums.Head);
             this.HeadLayer.InvalidateVisual();
             this.BustLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Pale, LayerEnums.Bust);
             this.BustLayer.InvalidateVisual();
-            this.HandsLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Pale, LayerEnums.Hands);
-            this.HandsLayer.InvalidateVisual();
             this.FeetLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Pale, LayerEnums.Feet);
             this.FeetLayer.InvalidateVisual();
+            RedrawLayers(this.character, this.layerDictionary);
         }
 
         private void BaseButton_Click(object sender, RoutedEventArgs e)
         {
             BitmapBuilder bitmapBuilder = new BitmapBuilder();
-            this.BodyLayer.Source = null;
-            this.BodyLayer.InvalidateVisual();
+
+            var bodyComponent = RetrieveComponentFromList(0);
+            this.character.SetBodyComponent(bodyComponent);
+
+            var handComponent = RetrieveComponentFromList(7);
+            this.character.SetHandComponent(handComponent);
+
             this.HeadLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Base, LayerEnums.Head);
             this.HeadLayer.InvalidateVisual();
             this.BustLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Base, LayerEnums.Bust);
             this.BustLayer.InvalidateVisual();
-            this.HandsLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Base, LayerEnums.Hands);
-            this.HandsLayer.InvalidateVisual();
             this.FeetLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Base, LayerEnums.Feet);
             this.FeetLayer.InvalidateVisual();
+            RedrawLayers(this.character, this.layerDictionary);
         }
 
         private void TannedButton_Click(object sender, RoutedEventArgs e)
         {
             BitmapBuilder bitmapBuilder = new BitmapBuilder();
 
-            this.BodyLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Tanned, LayerEnums.Body);
-            this.BodyLayer.InvalidateVisual();
+            var bodyComponent = RetrieveComponentFromList(3);
+            this.character.SetBodyComponent(bodyComponent);
+
+            var handComponent = RetrieveComponentFromList(10);
+            this.character.SetHandComponent(handComponent);
+
             this.HeadLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Tanned, LayerEnums.Head);
             this.HeadLayer.InvalidateVisual();
             this.BustLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Tanned, LayerEnums.Bust);
             this.BustLayer.InvalidateVisual();
-            this.HandsLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Tanned, LayerEnums.Hands);
-            this.HandsLayer.InvalidateVisual();
             this.FeetLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Tanned, LayerEnums.Feet);
             this.FeetLayer.InvalidateVisual();
+            RedrawLayers(this.character, this.layerDictionary);
         }
 
         private void BrownButton_Click(object sender, RoutedEventArgs e)
         {
             BitmapBuilder bitmapBuilder = new BitmapBuilder();
 
-            this.BodyLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Brown, LayerEnums.Body);
-            this.BodyLayer.InvalidateVisual();
+            var bodyComponent = RetrieveComponentFromList(4);
+            this.character.SetBodyComponent(bodyComponent);
+
+            var handComponent = RetrieveComponentFromList(11);
+            this.character.SetHandComponent(handComponent);
+
             this.HeadLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Brown, LayerEnums.Head);
             this.HeadLayer.InvalidateVisual();
             this.BustLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Brown, LayerEnums.Bust);
             this.BustLayer.InvalidateVisual();
-            this.HandsLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Brown, LayerEnums.Hands);
-            this.HandsLayer.InvalidateVisual();
             this.FeetLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Brown, LayerEnums.Feet);
             this.FeetLayer.InvalidateVisual();
+            RedrawLayers(this.character, this.layerDictionary);
         }
 
         private void DarkBrownButton_Click(object sender, RoutedEventArgs e)
         {
             BitmapBuilder bitmapBuilder = new BitmapBuilder();
 
-            this.BodyLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.DarkBrown, LayerEnums.Body);
-            this.BodyLayer.InvalidateVisual();
+            var bodyComponent = RetrieveComponentFromList(5);
+            this.character.SetBodyComponent(bodyComponent);
+
+            var handComponent = RetrieveComponentFromList(12);
+            this.character.SetHandComponent(handComponent);
+
             this.HeadLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.DarkBrown, LayerEnums.Head);
             this.HeadLayer.InvalidateVisual();
             this.BustLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.DarkBrown, LayerEnums.Bust);
             this.BustLayer.InvalidateVisual();
-            this.HandsLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.DarkBrown, LayerEnums.Hands);
-            this.HandsLayer.InvalidateVisual();
             this.FeetLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.DarkBrown, LayerEnums.Feet);
             this.FeetLayer.InvalidateVisual();
+            RedrawLayers(this.character, this.layerDictionary);
         }
 
         private void BlackButton_Click(object sender, RoutedEventArgs e)
         {
             BitmapBuilder bitmapBuilder = new BitmapBuilder();
 
-            this.BodyLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Black, LayerEnums.Body);
-            this.BodyLayer.InvalidateVisual();
+            var bodyComponent = RetrieveComponentFromList(6);
+            this.character.SetBodyComponent(bodyComponent);
+
+            var handComponent = RetrieveComponentFromList(13);
+            this.character.SetHandComponent(handComponent);
+
             this.HeadLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Black, LayerEnums.Head);
             this.HeadLayer.InvalidateVisual();
             this.BustLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Black, LayerEnums.Bust);
             this.BustLayer.InvalidateVisual();
-            this.HandsLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Black, LayerEnums.Hands);
-            this.HandsLayer.InvalidateVisual();
             this.FeetLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.Black, LayerEnums.Feet);
             this.FeetLayer.InvalidateVisual();
+            RedrawLayers(this.character, this.layerDictionary);
         }
 
         private void WhiteButton_Click(object sender, RoutedEventArgs e)
         {
             BitmapBuilder bitmapBuilder = new BitmapBuilder();
 
-            this.BodyLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.White, LayerEnums.Body);
-            this.BodyLayer.InvalidateVisual();
+            var bodyComponent = RetrieveComponentFromList(14);
+            this.character.SetBodyComponent(bodyComponent);
+
+            var handComponent = RetrieveComponentFromList(15);
+            this.character.SetHandComponent(handComponent);
+
             this.HeadLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.White, LayerEnums.Head);
             this.HeadLayer.InvalidateVisual();
             this.BustLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.White, LayerEnums.Bust);
             this.BustLayer.InvalidateVisual();
-            this.HandsLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.White, LayerEnums.Hands);
-            this.HandsLayer.InvalidateVisual();
             this.FeetLayer.Source = bitmapBuilder.BuildBitMap(SkinTypesEnums.White, LayerEnums.Feet);
             this.FeetLayer.InvalidateVisual();
-
+            RedrawLayers(this.character, this.layerDictionary);
         }
     }
 }
