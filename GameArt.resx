@@ -118,47 +118,92 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="base_body_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\base_body_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="base_body_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\base_body_1_front.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="base_bust_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\base_bust_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="base_bust_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\base_bust_1_front.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="base_feet_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\base_feet_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="base_feet_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\base_feet_1_front.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="base_hands_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\base_hands_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="base_hands_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\base_hands_1_front.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="base_head_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\base_head_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="base_head_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\base_head_1_front.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="black_body_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\black_body_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="black_body_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\black_body_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="black_bust_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\black_bust_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="black_bust_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\black_bust_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_feet_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\black_feet_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="black_feet_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\black_feet_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="black_hands_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\black_hands_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="black_hands_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\black_hands_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_head_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\black_head_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="black_head_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\black_head_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="brown_body_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\brown_body_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="brown_body_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\brown_body_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brown_bust_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\brown_bust_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="brown_bust_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\brown_bust_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="brown_feet_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\brown_feet_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="brown_feet_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\brown_feet_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="brown_hands_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\brown_hands_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="brown_hands_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\brown_hands_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brown_head_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\brown_head_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="brown_head_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\brown_head_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,47 +211,92 @@
   <data name="CharacterBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\CharacterBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="dark_brown_body_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\dark_brown_body_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="dark_brown_body_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\dark_brown_body_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_brown_bust_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\dark_brown_bust_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dark_brown_bust_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\dark_brown_bust_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="dark_brown_feet_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\dark_brown_feet_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="dark_brown_feet_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\dark_brown_feet_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark_brown_hands_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\dark_brown_hands_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dark_brown_hands_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\dark_brown_hands_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="dark_brown_head_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\dark_brown_head_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="dark_brown_head_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\dark_brown_head_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_pale_body_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\light_pale_body_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="light_pale_body_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\light_pale_body_1_front.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="light_pale_bust_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\light_pale_bust_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="light_pale_bust_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\light_pale_bust_1_front.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="light_pale_feet_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\light_pale_feet_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="light_pale_feet_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\light_pale_feet_1_front.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="light_pale_hands_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\light_pale_hands_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="light_pale_hands_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\light_pale_hands_1_front.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="light_pale_head_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\light_pale_head_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="light_pale_head_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\light_pale_head_1_front.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="pale_body_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\pale_body_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pale_body_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\pale_body_1_front.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pale_bust_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\pale_bust_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pale_bust_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\pale_bust_1_front.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="pale_feet_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\pale_feet_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pale_feet_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\pale_feet_1_front.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="pale_hands_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\pale_hands_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pale_hands_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\pale_hands_1_front.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pale_head_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\pale_head_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pale_head_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\pale_head_1_front.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -214,32 +304,62 @@
   <data name="splashscreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\splashscreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="tanned_body_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\tanned_body_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="tanned_body_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\tanned_body_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tanned_bust_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\tanned_bust_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tanned_bust_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\tanned_bust_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="tanned_feet_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\tanned_feet_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="tanned_feet_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\tanned_feet_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tanned_hands_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\tanned_hands_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tanned_hands_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\tanned_hands_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="tanned_head_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\tanned_head_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="tanned_head_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\tanned_head_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white_body_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\white_body_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="white_body_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\white_body_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="white_bust_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\white_bust_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="white_bust_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\white_bust_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white_feet_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\white_feet_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="white_feet_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\white_feet_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="white_hands_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\white_hands_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="white_hands_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\white_hands_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white_head_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\white_head_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="white_head_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\white_head_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

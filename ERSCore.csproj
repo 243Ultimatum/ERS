@@ -9,7 +9,47 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\base_body_1_back.png" />
+    <None Remove="Resources\base_bust_1_back.png" />
+    <None Remove="Resources\base_feet_1_back.png" />
+    <None Remove="Resources\base_hands_1_back.png" />
+    <None Remove="Resources\base_head_1_back.png" />
+    <None Remove="Resources\black_body_1_back.png" />
+    <None Remove="Resources\black_bust_1_back.png" />
+    <None Remove="Resources\black_feet_1_back.png" />
+    <None Remove="Resources\black_hands_1_back.png" />
+    <None Remove="Resources\black_head_1_back.png" />
+    <None Remove="Resources\brown_body_1_back.png" />
+    <None Remove="Resources\brown_bust_1_back.png" />
+    <None Remove="Resources\brown_feet_1_back.png" />
+    <None Remove="Resources\brown_hands_1_back.png" />
+    <None Remove="Resources\brown_head_1_back.png" />
+    <None Remove="Resources\dark_brown_body_1_back.png" />
+    <None Remove="Resources\dark_brown_bust_1_back.png" />
+    <None Remove="Resources\dark_brown_feet_1_back.png" />
+    <None Remove="Resources\dark_brown_hands_1_back.png" />
+    <None Remove="Resources\dark_brown_head_1_back.png" />
+    <None Remove="Resources\light_pale_body_1_back.png" />
+    <None Remove="Resources\light_pale_bust_1_back.png" />
+    <None Remove="Resources\light_pale_feet_1_back.png" />
+    <None Remove="Resources\light_pale_hands_1_back.png" />
+    <None Remove="Resources\light_pale_head_1_back.png" />
+    <None Remove="Resources\pale_body_1_back.png" />
+    <None Remove="Resources\pale_bust_1_back.png" />
+    <None Remove="Resources\pale_feet_1_back.png" />
+    <None Remove="Resources\pale_hands_1_back.png" />
+    <None Remove="Resources\pale_head_1_back.png" />
     <None Remove="Resources\splashscreen.png" />
+    <None Remove="Resources\tanned_body_1_back.png" />
+    <None Remove="Resources\tanned_bust_1_back.png" />
+    <None Remove="Resources\tanned_feet_1_back.png" />
+    <None Remove="Resources\tanned_hands_1_back.png" />
+    <None Remove="Resources\tanned_head_1_back.png" />
+    <None Remove="Resources\white_body_1_back.png" />
+    <None Remove="Resources\white_bust_1_back.png" />
+    <None Remove="Resources\white_feet_1_back.png" />
+    <None Remove="Resources\white_hands_1_back.png" />
+    <None Remove="Resources\white_head_1_back.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,46 +57,86 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Resources\base_body_1_back.png" />
     <Resource Include="Resources\base_body_1_front.png" />
+    <Resource Include="Resources\base_bust_1_back.png" />
     <Resource Include="Resources\base_bust_1_front.png" />
+    <Resource Include="Resources\base_feet_1_back.png" />
     <Resource Include="Resources\base_feet_1_front.png" />
+    <Resource Include="Resources\base_hands_1_back.png" />
     <Resource Include="Resources\base_hands_1_front.png" />
+    <Resource Include="Resources\base_head_1_back.png" />
     <Resource Include="Resources\base_head_1_front.png" />
+    <Resource Include="Resources\black_body_1_back.png" />
     <Resource Include="Resources\black_body_1_front.png" />
+    <Resource Include="Resources\black_bust_1_back.png" />
     <Resource Include="Resources\black_bust_1_front.png" />
+    <Resource Include="Resources\black_feet_1_back.png" />
     <Resource Include="Resources\black_feet_1_front.png" />
+    <Resource Include="Resources\black_hands_1_back.png" />
     <Resource Include="Resources\black_hands_1_front.png" />
+    <Resource Include="Resources\black_head_1_back.png" />
     <Resource Include="Resources\black_head_1_front.png" />
+    <Resource Include="Resources\brown_body_1_back.png" />
     <Resource Include="Resources\brown_body_1_front.png" />
+    <Resource Include="Resources\brown_bust_1_back.png" />
     <Resource Include="Resources\brown_bust_1_front.png" />
+    <Resource Include="Resources\brown_feet_1_back.png" />
     <Resource Include="Resources\brown_feet_1_front.png" />
+    <Resource Include="Resources\brown_hands_1_back.png" />
     <Resource Include="Resources\brown_hands_1_front.png" />
+    <Resource Include="Resources\brown_head_1_back.png" />
     <Resource Include="Resources\brown_head_1_front.png" />
     <Resource Include="Resources\CharacterBackground.png" />
+    <Resource Include="Resources\dark_brown_body_1_back.png" />
     <Resource Include="Resources\dark_brown_body_1_front.png" />
+    <Resource Include="Resources\dark_brown_bust_1_back.png" />
     <Resource Include="Resources\dark_brown_bust_1_front.png" />
+    <Resource Include="Resources\dark_brown_feet_1_back.png" />
     <Resource Include="Resources\dark_brown_feet_1_front.png" />
+    <Resource Include="Resources\dark_brown_hands_1_back.png" />
     <Resource Include="Resources\dark_brown_hands_1_front.png" />
+    <Resource Include="Resources\dark_brown_head_1_back.png" />
     <Resource Include="Resources\dark_brown_head_1_front.png" />
+    <Resource Include="Resources\light_pale_body_1_back.png" />
     <Resource Include="Resources\light_pale_body_1_front.png" />
+    <Resource Include="Resources\light_pale_bust_1_back.png" />
     <Resource Include="Resources\light_pale_bust_1_front.png" />
+    <Resource Include="Resources\light_pale_feet_1_back.png" />
     <Resource Include="Resources\light_pale_feet_1_front.png" />
+    <Resource Include="Resources\light_pale_hands_1_back.png" />
     <Resource Include="Resources\light_pale_hands_1_front.png" />
+    <Resource Include="Resources\light_pale_head_1_back.png" />
     <Resource Include="Resources\light_pale_head_1_front.png" />
+    <Resource Include="Resources\pale_body_1_back.png" />
     <Resource Include="Resources\pale_body_1_front.png" />
+    <Resource Include="Resources\pale_bust_1_back.png" />
     <Resource Include="Resources\pale_bust_1_front.png" />
+    <Resource Include="Resources\pale_feet_1_back.png" />
     <Resource Include="Resources\pale_feet_1_front.png" />
+    <Resource Include="Resources\pale_hands_1_back.png" />
     <Resource Include="Resources\pale_hands_1_front.png" />
+    <Resource Include="Resources\pale_head_1_back.png" />
     <Resource Include="Resources\pale_head_1_front.png" />
+    <Resource Include="Resources\tanned_body_1_back.png" />
     <Resource Include="Resources\tanned_body_1_front.png" />
+    <Resource Include="Resources\tanned_bust_1_back.png" />
     <Resource Include="Resources\tanned_bust_1_front.png" />
+    <Resource Include="Resources\tanned_feet_1_back.png" />
     <Resource Include="Resources\tanned_feet_1_front.png" />
+    <Resource Include="Resources\tanned_hands_1_back.png" />
     <Resource Include="Resources\tanned_hands_1_front.png" />
+    <Resource Include="Resources\tanned_head_1_back.png" />
     <Resource Include="Resources\tanned_head_1_front.png" />
+    <Resource Include="Resources\white_body_1_back.png" />
     <Resource Include="Resources\white_body_1_front.png" />
+    <Resource Include="Resources\white_bust_1_back.png" />
     <Resource Include="Resources\white_bust_1_front.png" />
+    <Resource Include="Resources\white_feet_1_back.png" />
     <Resource Include="Resources\white_feet_1_front.png" />
+    <Resource Include="Resources\white_hands_1_back.png" />
     <Resource Include="Resources\white_hands_1_front.png" />
+    <Resource Include="Resources\white_head_1_back.png" />
     <Resource Include="Resources\white_head_1_front.png" />
   </ItemGroup>
 
@@ -77,6 +157,10 @@
 
   <ItemGroup>
     <SplashScreen Include="Resources\splashscreen.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Utilities\" />
   </ItemGroup>
 
 </Project>

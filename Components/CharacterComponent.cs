@@ -14,16 +14,19 @@ namespace ERSCore
         internal bool IsFemaleComponent { get; set; }
         public int BodyType { get; set; }
         public Dictionary<LayerEnums, Uri> RenderLayersList { get; set; }
+        public bool IsMultiPartComponent { get; set; }
         public CharacterComponent(string componentName, int componentID,
             bool isFemaleComponent,
              Dictionary<LayerEnums, Uri> renderLayersList,
-            int bodyType)
+            int bodyType,
+            bool isMultipartComponent)
         {
             ComponentName = componentName;
             ComponentID = componentID;
             IsFemaleComponent = isFemaleComponent;
             RenderLayersList = renderLayersList;
             BodyType = bodyType;
+            IsMultiPartComponent = isMultipartComponent;
         }
 
     }

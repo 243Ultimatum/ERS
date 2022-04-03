@@ -61,12 +61,32 @@ namespace ERSCore {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap base_body_1_back {
+            get {
+                object obj = ResourceManager.GetObject("base_body_1_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
         public static byte[] base_body_1_front {
             get {
                 object obj = ResourceManager.GetObject("base_body_1_front", resourceCulture);
                 return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap base_bust_1_back {
+            get {
+                object obj = ResourceManager.GetObject("base_bust_1_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -81,6 +101,16 @@ namespace ERSCore {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap base_feet_1_back {
+            get {
+                object obj = ResourceManager.GetObject("base_feet_1_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
         public static byte[] base_feet_1_front {
@@ -91,12 +121,32 @@ namespace ERSCore {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap base_hands_1_back {
+            get {
+                object obj = ResourceManager.GetObject("base_hands_1_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
         public static byte[] base_hands_1_front {
             get {
                 object obj = ResourceManager.GetObject("base_hands_1_front", resourceCulture);
                 return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap base_head_1_back {
+            get {
+                object obj = ResourceManager.GetObject("base_head_1_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -113,9 +163,29 @@ namespace ERSCore {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap black_body_1_back {
+            get {
+                object obj = ResourceManager.GetObject("black_body_1_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap black_body_1_front {
             get {
                 object obj = ResourceManager.GetObject("black_body_1_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap black_bust_1_back {
+            get {
+                object obj = ResourceManager.GetObject("black_bust_1_back", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +203,29 @@ namespace ERSCore {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap black_feet_1_back {
+            get {
+                object obj = ResourceManager.GetObject("black_feet_1_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap black_feet_1_front {
             get {
                 object obj = ResourceManager.GetObject("black_feet_1_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap black_hands_1_back {
+            get {
+                object obj = ResourceManager.GetObject("black_hands_1_back", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +243,29 @@ namespace ERSCore {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap black_head_1_back {
+            get {
+                object obj = ResourceManager.GetObject("black_head_1_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap black_head_1_front {
             get {
                 object obj = ResourceManager.GetObject("black_head_1_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap brown_body_1_back {
+            get {
+                object obj = ResourceManager.GetObject("brown_body_1_back", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +283,29 @@ namespace ERSCore {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap brown_bust_1_back {
+            get {
+                object obj = ResourceManager.GetObject("brown_bust_1_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap brown_bust_1_front {
             get {
                 object obj = ResourceManager.GetObject("brown_bust_1_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap brown_feet_1_back {
+            get {
+                object obj = ResourceManager.GetObject("brown_feet_1_back", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,9 +323,29 @@ namespace ERSCore {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap brown_hands_1_back {
+            get {
+                object obj = ResourceManager.GetObject("brown_hands_1_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap brown_hands_1_front {
             get {
                 object obj = ResourceManager.GetObject("brown_hands_1_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap brown_head_1_back {
+            get {
+                object obj = ResourceManager.GetObject("brown_head_1_back", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,9 +373,29 @@ namespace ERSCore {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap dark_brown_body_1_back {
+            get {
+                object obj = ResourceManager.GetObject("dark_brown_body_1_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap dark_brown_body_1_front {
             get {
                 object obj = ResourceManager.GetObject("dark_brown_body_1_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap dark_brown_bust_1_back {
+            get {
+                object obj = ResourceManager.GetObject("dark_brown_bust_1_back", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,9 +413,29 @@ namespace ERSCore {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap dark_brown_feet_1_back {
+            get {
+                object obj = ResourceManager.GetObject("dark_brown_feet_1_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap dark_brown_feet_1_front {
             get {
                 object obj = ResourceManager.GetObject("dark_brown_feet_1_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap dark_brown_hands_1_back {
+            get {
+                object obj = ResourceManager.GetObject("dark_brown_hands_1_back", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -263,9 +453,29 @@ namespace ERSCore {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap dark_brown_head_1_back {
+            get {
+                object obj = ResourceManager.GetObject("dark_brown_head_1_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap dark_brown_head_1_front {
             get {
                 object obj = ResourceManager.GetObject("dark_brown_head_1_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap light_pale_body_1_back {
+            get {
+                object obj = ResourceManager.GetObject("light_pale_body_1_back", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -281,12 +491,32 @@ namespace ERSCore {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap light_pale_bust_1_back {
+            get {
+                object obj = ResourceManager.GetObject("light_pale_bust_1_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
         public static byte[] light_pale_bust_1_front {
             get {
                 object obj = ResourceManager.GetObject("light_pale_bust_1_front", resourceCulture);
                 return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap light_pale_feet_1_back {
+            get {
+                object obj = ResourceManager.GetObject("light_pale_feet_1_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -301,12 +531,32 @@ namespace ERSCore {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap light_pale_hands_1_back {
+            get {
+                object obj = ResourceManager.GetObject("light_pale_hands_1_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
         public static byte[] light_pale_hands_1_front {
             get {
                 object obj = ResourceManager.GetObject("light_pale_hands_1_front", resourceCulture);
                 return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap light_pale_head_1_back {
+            get {
+                object obj = ResourceManager.GetObject("light_pale_head_1_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -321,12 +571,32 @@ namespace ERSCore {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap pale_body_1_back {
+            get {
+                object obj = ResourceManager.GetObject("pale_body_1_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
         public static byte[] pale_body_1_front {
             get {
                 object obj = ResourceManager.GetObject("pale_body_1_front", resourceCulture);
                 return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap pale_bust_1_back {
+            get {
+                object obj = ResourceManager.GetObject("pale_bust_1_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -341,6 +611,16 @@ namespace ERSCore {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap pale_feet_1_back {
+            get {
+                object obj = ResourceManager.GetObject("pale_feet_1_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
         public static byte[] pale_feet_1_front {
@@ -351,12 +631,32 @@ namespace ERSCore {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap pale_hands_1_back {
+            get {
+                object obj = ResourceManager.GetObject("pale_hands_1_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
         public static byte[] pale_hands_1_front {
             get {
                 object obj = ResourceManager.GetObject("pale_hands_1_front", resourceCulture);
                 return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap pale_head_1_back {
+            get {
+                object obj = ResourceManager.GetObject("pale_head_1_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -383,9 +683,29 @@ namespace ERSCore {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap tanned_body_1_back {
+            get {
+                object obj = ResourceManager.GetObject("tanned_body_1_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap tanned_body_1_front {
             get {
                 object obj = ResourceManager.GetObject("tanned_body_1_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap tanned_bust_1_back {
+            get {
+                object obj = ResourceManager.GetObject("tanned_bust_1_back", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -403,9 +723,29 @@ namespace ERSCore {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap tanned_feet_1_back {
+            get {
+                object obj = ResourceManager.GetObject("tanned_feet_1_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap tanned_feet_1_front {
             get {
                 object obj = ResourceManager.GetObject("tanned_feet_1_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap tanned_hands_1_back {
+            get {
+                object obj = ResourceManager.GetObject("tanned_hands_1_back", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -423,9 +763,29 @@ namespace ERSCore {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap tanned_head_1_back {
+            get {
+                object obj = ResourceManager.GetObject("tanned_head_1_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap tanned_head_1_front {
             get {
                 object obj = ResourceManager.GetObject("tanned_head_1_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap white_body_1_back {
+            get {
+                object obj = ResourceManager.GetObject("white_body_1_back", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -443,9 +803,29 @@ namespace ERSCore {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap white_bust_1_back {
+            get {
+                object obj = ResourceManager.GetObject("white_bust_1_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap white_bust_1_front {
             get {
                 object obj = ResourceManager.GetObject("white_bust_1_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap white_feet_1_back {
+            get {
+                object obj = ResourceManager.GetObject("white_feet_1_back", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -463,9 +843,29 @@ namespace ERSCore {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap white_hands_1_back {
+            get {
+                object obj = ResourceManager.GetObject("white_hands_1_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap white_hands_1_front {
             get {
                 object obj = ResourceManager.GetObject("white_hands_1_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap white_head_1_back {
+            get {
+                object obj = ResourceManager.GetObject("white_head_1_back", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

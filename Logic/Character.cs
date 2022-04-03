@@ -7,13 +7,23 @@ namespace ERSCore
     public class Character
     {
         //Body base component, cannot be a "None" component
-        CharacterComponent BodyComponent { get; set; }
-        CharacterComponent HandComponent { get; set; }
+        public CharacterComponent BodyComponent { get; set; }
+        public CharacterComponent HandComponent { get; set; }
+        public CharacterComponent BustComponent { get; set; }
+        public CharacterComponent FeetComponent { get; set; }
+        public CharacterComponent HeadComponent { get; set; }
 
-        public Character(CharacterComponent bodyComponent, CharacterComponent handComponent)
+        public Character(CharacterComponent bodyComponent,
+            CharacterComponent handComponent,
+            CharacterComponent bustComponent,
+            CharacterComponent feetComponent,
+            CharacterComponent headComponent)
         {
             BodyComponent = bodyComponent;
             HandComponent = handComponent;
+            BustComponent = bustComponent;
+            FeetComponent = feetComponent;
+            HeadComponent = headComponent;
         }
 
         public int GetBodyType()
@@ -38,6 +48,18 @@ namespace ERSCore
                 AllLayers.Add(componentLayers.Key, componentLayers.Value);
             }
             foreach(KeyValuePair<LayerEnums, Uri> componentLayers in HandComponent.RenderLayersList)
+            {
+                AllLayers.Add(componentLayers.Key, componentLayers.Value);
+            }
+            foreach(KeyValuePair<LayerEnums, Uri> componentLayers in BustComponent.RenderLayersList)
+            {
+                AllLayers.Add(componentLayers.Key, componentLayers.Value);
+            }
+            foreach (KeyValuePair<LayerEnums, Uri> componentLayers in FeetComponent.RenderLayersList)
+            {
+                AllLayers.Add(componentLayers.Key, componentLayers.Value);
+            }
+            foreach (KeyValuePair<LayerEnums, Uri> componentLayers in HeadComponent.RenderLayersList)
             {
                 AllLayers.Add(componentLayers.Key, componentLayers.Value);
             }

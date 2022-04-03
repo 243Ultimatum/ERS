@@ -9,7 +9,6 @@ E:\GitHub\ERS\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
 E:\GitHub\ERS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
 E:\GitHub\ERS\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll
 E:\GitHub\ERS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
-E:\GitHub\ERS\obj\Debug\netcoreapp3.1\ERSCore.csprojAssemblyReference.cache
 E:\GitHub\ERS\obj\Debug\netcoreapp3.1\App.g.cs
 E:\GitHub\ERS\obj\Debug\netcoreapp3.1\ERSCore_MarkupCompile.cache
 E:\GitHub\ERS\obj\Debug\netcoreapp3.1\ERSCore_MarkupCompile.lref
@@ -25,3 +24,4 @@ E:\GitHub\ERS\obj\Debug\netcoreapp3.1\ERSCore.genruntimeconfig.cache
 E:\GitHub\ERS\obj\Debug\netcoreapp3.1\CharacterCreateWindow.g.cs
 E:\GitHub\ERS\obj\Debug\netcoreapp3.1\CharacterCreateWindow.baml
 E:\GitHub\ERS\obj\Debug\netcoreapp3.1\ERSCore.GameArt.resources
+E:\GitHub\ERS\obj\Debug\netcoreapp3.1\ERSCore.csprojAssemblyReference.cache
