@@ -160,9 +160,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\GitHub\\ERS\\Character Previewer.csproj",
-      "projectName": "Character Previewer",
-      "projectPath": "E:\\GitHub\\ERS\\Character Previewer.csproj",
+      "projectUniqueName": "E:\\GitHub\\ERS\\ERSCore.csproj",
+      "projectName": "ERSCore",
+      "projectPath": "E:\\GitHub\\ERS\\ERSCore.csproj",
       "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
       "outputPath": "E:\\GitHub\\ERS\\obj\\publish\\win-x64\\",
       "projectStyle": "PackageReference",

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ERSCore"
         mc:Ignorable="d"
-        Title="Character Previewer - Pre-Alpha v0.1" Height="720" Width="1024" WindowStartupLocation="CenterScreen">
+        Title="ERS Core v0.1.2.0-pre-alpha" Height="720" Width="1024" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="2*"/>
