@@ -33,6 +33,8 @@
     <None Remove="Resources\black_hands_1_front.png" />
     <None Remove="Resources\black_head_1_back.png" />
     <None Remove="Resources\black_head_1_front.png" />
+    <None Remove="Resources\black_short_pencilskirt_medium_front.png" />
+    <None Remove="Resources\blank_layer.png" />
     <None Remove="Resources\brown_body_1_back.png" />
     <None Remove="Resources\brown_body_1_front.png" />
     <None Remove="Resources\brown_bust_1_back.png" />
@@ -57,6 +59,8 @@
     <None Remove="Resources\dark_brown_hands_1_front.png" />
     <None Remove="Resources\dark_brown_head_1_back.png" />
     <None Remove="Resources\dark_brown_head_1_front.png" />
+    <None Remove="Resources\fitted_shirt_white_medium_full_length_front.png" />
+    <None Remove="Resources\fitted_shirt_white_medium_pencilskirt_length_front.png" />
     <None Remove="Resources\light_pale_body_1_back.png" />
     <None Remove="Resources\light_pale_body_1_front.png" />
     <None Remove="Resources\light_pale_bust_1_back.png" />
@@ -81,6 +85,10 @@
     <None Remove="Resources\pale_hands_1_front.png" />
     <None Remove="Resources\pale_head_1_back.png" />
     <None Remove="Resources\pale_head_1_front.png" />
+    <None Remove="Resources\red_bikini_medium_back.png" />
+    <None Remove="Resources\red_bikini_medium_front.png" />
+    <None Remove="Resources\red_bikini_top_medium_back.png" />
+    <None Remove="Resources\red_bikini_top_medium_front.png" />
     <None Remove="Resources\splashscreen.png" />
     <None Remove="Resources\tanned_body_1_back.png" />
     <None Remove="Resources\tanned_body_1_front.png" />
@@ -137,6 +145,8 @@
     <Resource Include="Resources\black_hands_1_front.png" />
     <Resource Include="Resources\black_head_1_back.png" />
     <Resource Include="Resources\black_head_1_front.png" />
+    <Resource Include="Resources\black_short_pencilskirt_medium_front.png" />
+    <Resource Include="Resources\blank_layer.png" />
     <Resource Include="Resources\brown_body_1_back.png" />
     <Resource Include="Resources\brown_body_1_front.png" />
     <Resource Include="Resources\brown_bust_1_back.png" />
@@ -162,6 +172,8 @@
     <Resource Include="Resources\dark_brown_hands_1_front.png" />
     <Resource Include="Resources\dark_brown_head_1_back.png" />
     <Resource Include="Resources\dark_brown_head_1_front.png" />
+    <Resource Include="Resources\fitted_shirt_white_medium_full_length_front.png" />
+    <Resource Include="Resources\fitted_shirt_white_medium_pencilskirt_length_front.png" />
     <Resource Include="Resources\light_pale_body_1_back.png" />
     <Resource Include="Resources\light_pale_body_1_front.png" />
     <Resource Include="Resources\light_pale_bust_1_back.png" />
@@ -186,6 +198,10 @@
     <Resource Include="Resources\pale_hands_1_front.png" />
     <Resource Include="Resources\pale_head_1_back.png" />
     <Resource Include="Resources\pale_head_1_front.png" />
+    <Resource Include="Resources\red_bikini_medium_back.png" />
+    <Resource Include="Resources\red_bikini_medium_front.png" />
+    <Resource Include="Resources\red_bikini_top_medium_back.png" />
+    <Resource Include="Resources\red_bikini_top_medium_front.png" />
     <Resource Include="Resources\tanned_body_1_back.png" />
     <Resource Include="Resources\tanned_body_1_front.png" />
     <Resource Include="Resources\tanned_bust_1_back.png" />

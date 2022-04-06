@@ -12,18 +12,38 @@ namespace ERSCore
         public CharacterComponent BustComponent { get; set; }
         public CharacterComponent FeetComponent { get; set; }
         public CharacterComponent HeadComponent { get; set; }
+        public CharacterComponent BodyUnderwearComponent { get; set; }
+        public CharacterComponent BustUnderwearComponent { get; set; }
+        public CharacterComponent BustMiddleComponent { get; set; }
+        public CharacterComponent BodyMiddleComponent { get; set; }
+        public int BustSize = 1;
+        public int BodySize = 1;
+        public SkinTypesEnums SkinType { get; set; }
+
 
         public Character(CharacterComponent bodyComponent,
             CharacterComponent handComponent,
             CharacterComponent bustComponent,
             CharacterComponent feetComponent,
-            CharacterComponent headComponent)
+            CharacterComponent headComponent,
+            CharacterComponent bodyUnderwearComponent,
+            CharacterComponent bustUnderwearComponent,
+            CharacterComponent bustMiddleComponent,
+            CharacterComponent bodyMiddleComponent,
+            SkinTypesEnums skinType)
         {
             BodyComponent = bodyComponent;
             HandComponent = handComponent;
             BustComponent = bustComponent;
             FeetComponent = feetComponent;
             HeadComponent = headComponent;
+            BodyUnderwearComponent = bodyUnderwearComponent;
+            BustUnderwearComponent = bustUnderwearComponent;
+            BustMiddleComponent = bustMiddleComponent;
+            BodyMiddleComponent = bodyMiddleComponent;
+            SkinType = skinType;
+
+
         }
 
         public int GetBodyType()
@@ -63,6 +83,23 @@ namespace ERSCore
             {
                 AllLayers.Add(componentLayers.Key, componentLayers.Value);
             }
+            foreach (KeyValuePair<LayerEnums, Uri> componentLayers in BodyUnderwearComponent.RenderLayersList)
+            {
+                AllLayers.Add(componentLayers.Key, componentLayers.Value);
+            }
+            foreach (KeyValuePair<LayerEnums, Uri> componentLayers in BustUnderwearComponent.RenderLayersList)
+            {
+                AllLayers.Add(componentLayers.Key, componentLayers.Value);
+            }
+            foreach (KeyValuePair<LayerEnums, Uri> componentLayers in BustMiddleComponent.RenderLayersList)
+            {
+                AllLayers.Add(componentLayers.Key, componentLayers.Value);
+            }
+            foreach (KeyValuePair<LayerEnums, Uri> componentLayers in BodyMiddleComponent.RenderLayersList)
+            {
+                AllLayers.Add(componentLayers.Key, componentLayers.Value);
+            }
+
             return AllLayers;
         }
 

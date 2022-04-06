@@ -190,6 +190,12 @@
   <data name="black_head_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\black_head_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="black_short_pencilskirt_medium_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\black_short_pencilskirt_medium_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blank_layer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\blank_layer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="brown_body_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\brown_body_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -265,6 +271,12 @@
   <data name="dark_brown_head_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\dark_brown_head_1_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="fitted_shirt_white_medium_full_length_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\fitted_shirt_white_medium_full_length_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fitted_shirt_white_medium_pencilskirt_length_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\fitted_shirt_white_medium_pencilskirt_length_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="light_pale_body_1_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\light_pale_body_1_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -336,6 +348,18 @@
   </data>
   <data name="pale_head_1_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\pale_head_1_front.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="red_bikini_medium_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\red_bikini_medium_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="red_bikini_medium_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\red_bikini_medium_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="red_bikini_top_medium_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\red_bikini_top_medium_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="red_bikini_top_medium_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\red_bikini_top_medium_front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="splashscreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\splashscreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

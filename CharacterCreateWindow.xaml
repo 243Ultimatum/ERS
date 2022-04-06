@@ -37,12 +37,12 @@
         <Image x:Name="BodyMiddleLayer" Panel.ZIndex="6"/>
         <Image x:Name="BodyTopLayer" Panel.ZIndex="7"/>
         <!-- Hands Layers -->
-        <Image x:Name="HandsLayer" Panel.ZIndex="3"/>
-        <Image x:Name="HandsUnderAccessoriesLayer" Panel.ZIndex="4"/>
-        <Image x:Name="HandsUnderwearLayer" Panel.ZIndex="5"/>
-        <Image x:Name="HandsMiddleLayer" Panel.ZIndex="6"/>
-        <Image x:Name="HandsUpperAccessoriesLayer" Panel.ZIndex="7"/>
-        <Image x:Name="HandsTopLayer" Panel.ZIndex="8"/>
+        <Image x:Name="HandsLayer" Panel.ZIndex="20"/>
+        <Image x:Name="HandsUnderAccessoriesLayer" Panel.ZIndex="21"/>
+        <Image x:Name="HandsUnderwearLayer" Panel.ZIndex="22"/>
+        <Image x:Name="HandsMiddleLayer" Panel.ZIndex="23"/>
+        <Image x:Name="HandsUpperAccessoriesLayer" Panel.ZIndex="24"/>
+        <Image x:Name="HandsTopLayer" Panel.ZIndex="25"/>
         <!-- Feet Layers -->
         <Image x:Name="FeetLayer" Panel.ZIndex="3"/>
         <Image x:Name="FeetUnderAccessoriesLayer" Panel.ZIndex="4"/>
@@ -57,9 +57,19 @@
         <Image x:Name="BustMiddleLayer" Panel.ZIndex="11"/>
         <Image x:Name="BustTopLayer" Panel.ZIndex="12"/>
 
-        <TabControl Grid.Column="1">
-            <TabItem Header="BodyType">
-                
+        <TabControl Grid.Column="1" SelectionChanged="TabControl_SelectionChanged_1">
+            <TabItem Header="BodyType" >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Label Name="BustSizeLabel" Content="Bust Size"/>
+                    <StackPanel x:Name="BustSizeStackPanel" Orientation="Horizontal" Grid.Row="1">
+                        <Button x:Name="SmallBustSize" Height="25" Width="50" Content="Small" Margin="3" Click="SmallBustSize_Click"/>
+                        <Button x:Name="MediumBustSize" Height="25" Content="Medium" Width="50" Margin="3" Click="MediumBustSize_Click"/>
+                    </StackPanel>
+                </Grid>
             </TabItem>
             <TabItem Header="Skin Colour">
                 <StackPanel Grid.Column="1" HorizontalAlignment="Left" Margin="20">
@@ -77,10 +87,16 @@
                 
             </TabItem>
             <TabItem Header="Underwear">
-                
+                <StackPanel>
+                    <Button x:Name="RedBikiniBottoms" Content="Red Bikini Bottoms" Click="RedBikiniBottoms_Click" />
+                    <Button x:Name="RedBikiniTop" Content="Red Bikini Top" Click="RedBikiniTop_Click" />
+                </StackPanel>
             </TabItem>
             <TabItem Header="Middle Layer Clothing">
-                
+                <StackPanel>
+                    <Button x:Name="FittedWhiteShirt" Content="White Fitted Shirt" Click="FittedWhiteShirt_Click"/>
+                    <Button x:Name="ShortBlackPencilSkirt" Content="Black Short Pencil Skirt" Click="ShortBlackPencilSkirt_Click"/>
+                </StackPanel>
             </TabItem>
             <TabItem Header="Top Layer Clothing">
                 

@@ -621,6 +621,262 @@ namespace ERSCore
                     1,
                     false)
                 );
+
+            var baseSmallBustDict = new Dictionary<LayerEnums, Uri>()
+            {
+                {LayerEnums.Bust, new Uri("pack://application:,,,/Resources/base_bust_2_front.png")},
+                {LayerEnums.BustBack, new Uri("pack://application:,,,/Resources/base_bust_2_back.png")}
+            };
+            loadedComponets.Add(
+                new CharacterComponent(
+                    "Base_Bust_Small_Body_Medium",
+                    40,
+                    true,
+                    baseSmallBustDict,
+                    1,
+                    false)
+                );
+
+            var lightPaleSmallBustDict = new Dictionary<LayerEnums, Uri>()
+            {
+                {LayerEnums.Bust, new Uri("pack://application:,,,/Resources/light_pale_bust_2_front.png")},
+                {LayerEnums.BustBack, new Uri("pack://application:,,,/Resources/light_pale_bust_2_back.png")}
+            };
+            loadedComponets.Add(
+                new CharacterComponent(
+                    "Light_Pale_Bust_Small_Body_Medium",
+                    41,
+                    true,
+                    lightPaleSmallBustDict,
+                    1,
+                    false)
+                );
+
+            var paleSmallBustDict = new Dictionary<LayerEnums, Uri>()
+            {
+                {LayerEnums.Bust, new Uri("pack://application:,,,/Resources/pale_bust_2_front.png")},
+                {LayerEnums.BustBack, new Uri("pack://application:,,,/Resources/pale_bust_2_back.png")}
+            };
+            loadedComponets.Add(
+                new CharacterComponent(
+                    "Pale_Bust_Small_Body_Medium",
+                    42,
+                    true,
+                    paleSmallBustDict,
+                    1,
+                    false)
+                );
+
+            var tannedSmallBustDict = new Dictionary<LayerEnums, Uri>()
+            {
+                {LayerEnums.Bust, new Uri("pack://application:,,,/Resources/tanned_bust_2_front.png")},
+                {LayerEnums.BustBack, new Uri("pack://application:,,,/Resources/tanned_bust_2_back.png")}
+            };
+            loadedComponets.Add(
+                new CharacterComponent(
+                    "Tanned_Bust_Small_Body_Medium",
+                    43,
+                    true,
+                    tannedSmallBustDict,
+                    1,
+                    false)
+                );
+
+            var brownSmallBustDict = new Dictionary<LayerEnums, Uri>()
+            {
+                {LayerEnums.Bust, new Uri("pack://application:,,,/Resources/brown_bust_2_front.png")},
+                {LayerEnums.BustBack, new Uri("pack://application:,,,/Resources/brown_bust_2_back.png")}
+            };
+            loadedComponets.Add(
+                new CharacterComponent(
+                    "Brown_Bust_Small_Body_Medium",
+                    44,
+                    true,
+                    brownSmallBustDict,
+                    1,
+                    false)
+                );
+
+            var darkBrownSmallBustDict = new Dictionary<LayerEnums, Uri>()
+            {
+                {LayerEnums.Bust, new Uri("pack://application:,,,/Resources/dark_brown_bust_2_front.png")},
+                {LayerEnums.BustBack, new Uri("pack://application:,,,/Resources/dark_brown_bust_2_back.png")}
+            };
+            loadedComponets.Add(
+                new CharacterComponent(
+                    "Dark_Brown_Bust_Small_Body_Medium",
+                    45,
+                    true,
+                    darkBrownSmallBustDict,
+                    1,
+                    false)
+                );
+
+            var blackSmallBustDict = new Dictionary<LayerEnums, Uri>()
+            {
+                {LayerEnums.Bust, new Uri("pack://application:,,,/Resources/black_bust_2_front.png")},
+                {LayerEnums.BustBack, new Uri("pack://application:,,,/Resources/black_bust_2_back.png")}
+            };
+            loadedComponets.Add(
+                new CharacterComponent(
+                    "Black_Bust_Small_Body_Medium",
+                    46,
+                    true,
+                    blackSmallBustDict,
+                    1,
+                    false)
+                );
+
+            var whiteSmallBustDict = new Dictionary<LayerEnums, Uri>()
+            {
+                {LayerEnums.Bust, new Uri("pack://application:,,,/Resources/white_bust_2_front.png")},
+                {LayerEnums.BustBack, new Uri("pack://application:,,,/Resources/white_bust_2_back.png")}
+            };
+            loadedComponets.Add(
+                new CharacterComponent(
+                    "White_Bust_Small_Body_Medium",
+                    47,
+                    true,
+                    whiteSmallBustDict,
+                    1,
+                    false)
+                );
+
+            var redBikiniMediumDict = new Dictionary<LayerEnums, Uri>()
+            {
+                {LayerEnums.BodyUnderwear, new Uri("pack://application:,,,/Resources/red_bikini_medium_front.png")},
+                {LayerEnums.BodyUnderwearBack, new Uri("pack://application:,,,/Resources/red_bikini_medium_back.png")}
+            };
+            loadedComponets.Add(
+                new CharacterComponent(
+                    "Red_Bikini_Bottoms_Medium",
+                    48,
+                    true,
+                    redBikiniMediumDict,
+                    1,
+                    false)
+                );
+
+            var bodyUnderwearNoneDict = new Dictionary<LayerEnums, Uri>()
+            {
+                {LayerEnums.BodyUnderwear, new Uri("pack://application:,,,/Resources/blank_layer.png")},
+                {LayerEnums.BodyUnderwearBack, new Uri("pack://application:,,,/Resources/blank_layer.png")}
+            };
+            loadedComponets.Add(
+                new CharacterComponent(
+                    "Body_Underwear_None",
+                    49,
+                    true,
+                    bodyUnderwearNoneDict,
+                    1,
+                    false)
+                );
+
+            var bustUnderwearNoneDict = new Dictionary<LayerEnums, Uri>()
+            {
+                {LayerEnums.BustUnderwear, new Uri("pack://application:,,,/Resources/blank_layer.png")},
+                {LayerEnums.BustUnderwearBack, new Uri("pack://application:,,,/Resources/blank_layer.png")}
+            };
+            loadedComponets.Add(
+                new CharacterComponent(
+                    "Bust_Underwear_None",
+                    50,
+                    true,
+                    bustUnderwearNoneDict,
+                    1,
+                    false)
+                );
+
+            var redBikiniTopMediumDict = new Dictionary<LayerEnums, Uri>()
+            {
+                {LayerEnums.BustUnderwear, new Uri("pack://application:,,,/Resources/red_bikini_top_medium_front.png")},
+                {LayerEnums.BustUnderwearBack, new Uri("pack://application:,,,/Resources/red_bikini_top_medium_back.png")}
+            };
+            loadedComponets.Add(
+                new CharacterComponent(
+                    "Red_Bikini_Top_Medium",
+                    51,
+                    true,
+                    redBikiniTopMediumDict,
+                    1,
+                    false)
+                );
+
+
+            var bustMiddleNoneDict = new Dictionary<LayerEnums, Uri>()
+            {
+                {LayerEnums.BustMiddle, new Uri("pack://application:,,,/Resources/blank_layer.png")},
+                {LayerEnums.BustMiddleBack, new Uri("pack://application:,,,/Resources/blank_layer.png")}
+            };
+            loadedComponets.Add(
+                new CharacterComponent(
+                    "Bust_Middle_None",
+                    52,
+                    true,
+                    bustMiddleNoneDict,
+                    1,
+                    false)
+                );
+
+            var fittedWhiteShirtDict = new Dictionary<LayerEnums, Uri>()
+            {
+                {LayerEnums.BustMiddle, new Uri("pack://application:,,,/Resources/fitted_shirt_white_medium_full_length_front.png")},
+                {LayerEnums.BustMiddleBack, new Uri("pack://application:,,,/Resources/blank_layer.png")}
+            };
+            loadedComponets.Add(
+                new CharacterComponent(
+                    "Fitted_Shirt_White_Full_Length",
+                    53,
+                    true,
+                    fittedWhiteShirtDict,
+                    1,
+                    false)
+                );
+            //black_short_pencilskirt_medium_front.png
+            var bodyMiddleLayerNoneDict = new Dictionary<LayerEnums, Uri>()
+            {
+                {LayerEnums.BodyMiddle, new Uri("pack://application:,,,/Resources/blank_layer.png")},
+                {LayerEnums.BodyMiddleBack, new Uri("pack://application:,,,/Resources/blank_layer.png")}
+            };
+            loadedComponets.Add(
+                new CharacterComponent(
+                    "Body_Middle_None",
+                    54,
+                    true,
+                    bodyMiddleLayerNoneDict,
+                    1,
+                    false)
+                );
+
+            var blackShortPencilSkirtDict = new Dictionary<LayerEnums, Uri>()
+            {
+                {LayerEnums.BodyMiddle, new Uri("pack://application:,,,/Resources/black_short_pencilskirt_medium_front.png")},
+                {LayerEnums.BodyMiddleBack, new Uri("pack://application:,,,/Resources/blank_layer.png")}
+            };
+            loadedComponets.Add(
+                new CharacterComponent(
+                    "Black_Short_Pencil_Skirt",
+                    55,
+                    true,
+                    blackShortPencilSkirtDict,
+                    1,
+                    false)
+                );
+
+            var skirtShortFittedWhiteShirtDict = new Dictionary<LayerEnums, Uri>()
+            {
+                {LayerEnums.BustMiddle, new Uri("pack://application:,,,/Resources/fitted_shirt_white_medium_pencilskirt_length_front.png")},
+                {LayerEnums.BustMiddleBack, new Uri("pack://application:,,,/Resources/blank_layer.png")}
+            };
+            loadedComponets.Add(
+                new CharacterComponent(
+                    "Fitted_Shirt_White_Pencil_Skirt",
+                    56,
+                    true,
+                    skirtShortFittedWhiteShirtDict,
+                    1,
+                    false)
+                );
         }
     } 
 }

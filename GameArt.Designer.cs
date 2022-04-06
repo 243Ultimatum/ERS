@@ -303,6 +303,26 @@ namespace ERSCore {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap black_short_pencilskirt_medium_front {
+            get {
+                object obj = ResourceManager.GetObject("black_short_pencilskirt_medium_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap blank_layer {
+            get {
+                object obj = ResourceManager.GetObject("blank_layer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap brown_body_1_back {
             get {
                 object obj = ResourceManager.GetObject("brown_body_1_back", resourceCulture);
@@ -553,6 +573,26 @@ namespace ERSCore {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap fitted_shirt_white_medium_full_length_front {
+            get {
+                object obj = ResourceManager.GetObject("fitted_shirt_white_medium_full_length_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap fitted_shirt_white_medium_pencilskirt_length_front {
+            get {
+                object obj = ResourceManager.GetObject("fitted_shirt_white_medium_pencilskirt_length_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap light_pale_body_1_back {
             get {
                 object obj = ResourceManager.GetObject("light_pale_body_1_back", resourceCulture);
@@ -787,6 +827,46 @@ namespace ERSCore {
             get {
                 object obj = ResourceManager.GetObject("pale_head_1_front", resourceCulture);
                 return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap red_bikini_medium_back {
+            get {
+                object obj = ResourceManager.GetObject("red_bikini_medium_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap red_bikini_medium_front {
+            get {
+                object obj = ResourceManager.GetObject("red_bikini_medium_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap red_bikini_top_medium_back {
+            get {
+                object obj = ResourceManager.GetObject("red_bikini_top_medium_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap red_bikini_top_medium_front {
+            get {
+                object obj = ResourceManager.GetObject("red_bikini_top_medium_front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
